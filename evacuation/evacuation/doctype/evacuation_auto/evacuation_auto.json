@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_rename": 1,
+ "creation": "2023-06-03 15:01:30.194404",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c_section",
+  "model",
+  "photo",
+  "column_break_bziv",
+  "reg_number",
+  "vim",
+  "section_break_zlov",
+  "driver"
+ ],
+ "fields": [
+  {
+   "description": "Mitsubishi Lancer X",
+   "fieldname": "model",
+   "fieldtype": "Link",
+   "label": "\u041c\u043e\u0434\u0435\u043b\u044c \u0430\u0432\u0442\u043e",
+   "options": "Evacuation Auto Model"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Link",
+   "label": "\u0412\u043e\u0434\u0456\u0439",
+   "options": "Evacuation Driver"
+  },
+  {
+   "fieldname": "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c_section",
+   "fieldtype": "Section Break",
+   "label": "\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c"
+  },
+  {
+   "fieldname": "column_break_bziv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "MO1912HO, AP0000AA",
+   "fieldname": "reg_number",
+   "fieldtype": "Data",
+   "label": "\u041d\u043e\u043c\u0435\u0440 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0437\u0430\u0441\u043e\u0431\u0443"
+  },
+  {
+   "description": "ZFA22300005556777",
+   "fieldname": "vim",
+   "fieldtype": "Data",
+   "label": "VIM \u043d\u043e\u043c\u0435\u0440"
+  },
+  {
+   "fieldname": "section_break_zlov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "\u0424\u043e\u0442\u043e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044f"
+  }
+ ],
+ "image_field": "photo",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-03 15:19:00.910811",
+ "modified_by": "Administrator",
+ "module": "Evacuation",
+ "name": "Evacuation Auto",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
