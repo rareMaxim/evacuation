@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-03 19:42:29.668087",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "car",
+  "column_break_umce",
+  "driver",
+  "section_break_yzhq",
+  "adress",
+  "customers"
+ ],
+ "fields": [
+  {
+   "fieldname": "car",
+   "fieldtype": "Link",
+   "label": "\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c",
+   "options": "Evacuation Auto"
+  },
+  {
+   "fetch_from": "car.driver",
+   "fieldname": "driver",
+   "fieldtype": "Link",
+   "label": "\u0412\u043e\u0434\u0456\u0439",
+   "options": "Evacuation Driver"
+  },
+  {
+   "fieldname": "adress",
+   "fieldtype": "Data",
+   "label": "\u0410\u0434\u0440\u0435\u0441\u0430 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457"
+  },
+  {
+   "fieldname": "customers",
+   "fieldtype": "Table",
+   "label": "\u041b\u044e\u0434\u0438",
+   "options": "Evacuation Customers"
+  },
+  {
+   "fieldname": "column_break_umce",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_yzhq",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-03 19:54:21.121487",
+ "modified_by": "Administrator",
+ "module": "Evacuation",
+ "name": "Evacuation Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
