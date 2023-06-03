@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include evacuation *.css
+recursive-include evacuation *.csv
+recursive-include evacuation *.html
+recursive-include evacuation *.ico
+recursive-include evacuation *.js
+recursive-include evacuation *.json
+recursive-include evacuation *.md
+recursive-include evacuation *.png
+recursive-include evacuation *.py
+recursive-include evacuation *.svg
+recursive-include evacuation *.txt
+recursive-exclude evacuation *.pyc
