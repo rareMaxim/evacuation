@@ -1,11 +1,11 @@
 {
  "charts": [
   {
-   "chart_name": "\u041a\u0456\u043b\u044c\u043a\u0456\u0441\u0442\u044c \u0432\u043e\u0434\u0456\u0457\u0432 \u0434\u043b\u044f \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457",
-   "label": "ss"
+   "chart_name": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f",
+   "label": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f"
   }
  ],
- "content": "[{\"id\":\"t4zBltwNE2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0415\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u044f \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f</span>\",\"col\":12}},{\"id\":\"WViNIy5Xms\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>\u0417\u0430\u044f\u0432\u043a\u0438 \u043d\u0430 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u044e</b></span>\",\"col\":12}},{\"id\":\"jNQhrkxCaX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u043e\u0434\u0430\u0442\u0438 \u0437\u0430\u044f\u0432\u043a\u0443\",\"col\":3}},{\"id\":\"NtcB0y-ze_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0412\u0441\u0456 \u0437\u0430\u044f\u0432\u043a\u0438\",\"col\":3}},{\"id\":\"STbXm_vD4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 <b>\u041c\u0435\u0448\u043a\u0430\u043d\u0446\u0456 \u043c\u0456\u0441\u0442\u0430</b></span>\",\"col\":12}},{\"id\":\"YfF1lZUvo-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u043e\u0434\u0430\u0442\u0438 \u043c\u0435\u0448\u043a\u0430\u043d\u0446\u044f\",\"col\":3}},{\"id\":\"t6lNdNuymu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0412\u0441\u0456 \u043c\u0435\u0448\u043a\u0430\u043d\u0446\u0456\",\"col\":3}},{\"id\":\"jdJ-Sdp4fH\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\ud83d\udc68\u200d\ud83e\uddb0<b>\u0412\u043e\u0434\u0456\u0457</b></span>\",\"col\":12}},{\"id\":\"eX0qseRFnd\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ss\",\"col\":12}},{\"id\":\"HxIKwROVme\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u043e\u0434\u0430\u0442\u0438 \u0432\u043e\u0434\u0456\u044f\",\"col\":3}},{\"id\":\"xIgjpkBaym\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0412\u0441\u0456 \u0432\u043e\u0434\u0456\u0457\",\"col\":3}},{\"id\":\"vmIjtN8a62\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\ud83d\ude99<b>\u0410\u0432\u0442\u043e\u043f\u0430\u0440\u043a</b></span>\",\"col\":12}},{\"id\":\"EKfM_kPrwl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0414\u043e\u0434\u0430\u0442\u0438 \u0430\u0432\u0442\u043e\",\"col\":3}},{\"id\":\"H6pZ3OxqSB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0412\u0441\u0456 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0456\",\"col\":3}}]",
+ "content": "[{\"id\":\"t4zBltwNE2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0415\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u044f \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f</span>\",\"col\":12}},{\"id\":\"4Tun6XxWrt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u041d\u043e\u0432\u0430 \u0430\u043d\u043a\u0435\u0442\u0430 \u043d\u0430 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u044e\",\"col\":3}},{\"id\":\"LAf526OUo5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0410\u043d\u043a\u0435\u0442\u0438 \u0435\u0432\u0430\u043a\u0443\u0439\u043e\u0432\u0430\u043d\u0438\u0445\",\"col\":3}},{\"id\":\"69YFnw7z0z\",\"type\":\"chart\",\"data\":{\"chart_name\":\"\u0421\u0442\u0430\u0442\u0443\u0441 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f\",\"col\":12}}]",
  "creation": "2023-06-03 14:48:39.940415",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,7 +17,7 @@
  "is_hidden": 0,
  "label": "Evacuation",
  "links": [],
- "modified": "2023-06-03 20:16:09.947063",
+ "modified": "2023-06-10 19:57:12.924204",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation",
@@ -28,68 +28,32 @@
  "quick_lists": [],
  "roles": [
   {
-   "role": "Evacuation Driver"
+   "role": "Evacuation Auto Manager"
+  },
+  {
+   "role": "Evacuation Manager"
+  },
+  {
+   "role": "Evacuation System Manager"
+  },
+  {
+   "role": "Administrator"
   }
  ],
- "sequence_id": 1.0,
+ "sequence_id": 2.0,
  "shortcuts": [
   {
-   "color": "Blue",
-   "doc_view": "New",
-   "label": "\u0414\u043e\u0434\u0430\u0442\u0438 \u0432\u043e\u0434\u0456\u044f",
-   "link_to": "Evacuation Driver",
-   "type": "DocType"
-  },
-  {
    "color": "Grey",
    "doc_view": "New",
-   "label": "\u0414\u043e\u0434\u0430\u0442\u0438 \u0430\u0432\u0442\u043e",
-   "link_to": "Evacuation Auto",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "New",
-   "label": "\u0414\u043e\u0434\u0430\u0442\u0438 \u043c\u0435\u0448\u043a\u0430\u043d\u0446\u044f",
-   "link_to": "Evacuation Customer",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "New",
-   "label": "\u0414\u043e\u0434\u0430\u0442\u0438 \u0437\u0430\u044f\u0432\u043a\u0443",
-   "link_to": "Evacuation Request",
+   "label": "\u041d\u043e\u0432\u0430 \u0430\u043d\u043a\u0435\u0442\u0430 \u043d\u0430 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u044e",
+   "link_to": "Evacuation Customers",
    "type": "DocType"
   },
   {
    "color": "Green",
    "doc_view": "List",
-   "label": "\u0412\u0441\u0456 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0456",
-   "link_to": "Evacuation Auto",
-   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
-   "type": "DocType"
-  },
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "\u0412\u0441\u0456 \u0437\u0430\u044f\u0432\u043a\u0438",
-   "link_to": "Evacuation Request",
-   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
-   "type": "DocType"
-  },
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "\u0412\u0441\u0456 \u043c\u0435\u0448\u043a\u0430\u043d\u0446\u0456",
-   "link_to": "Evacuation Customer",
-   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
-   "type": "DocType"
-  },
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "\u0412\u0441\u0456 \u0432\u043e\u0434\u0456\u0457",
-   "link_to": "Evacuation Driver",
+   "label": "\u0410\u043d\u043a\u0435\u0442\u0438 \u0435\u0432\u0430\u043a\u0443\u0439\u043e\u0432\u0430\u043d\u0438\u0445",
+   "link_to": "Evacuation Customers",
    "stats_filter": "{\"name\":[\"is\",\"set\"]}",
    "type": "DocType"
   }

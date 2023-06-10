@@ -5,6 +5,5 @@
 from frappe.model.document import Document
 
 
-class EvacuationCustomer(Document):
-	def before_save(self):
-		self.full_name = f'{self.last_name} {self.first_name} {self.middle_name}'
+class EvacuationPreferentialCategory(Document):
+	pass

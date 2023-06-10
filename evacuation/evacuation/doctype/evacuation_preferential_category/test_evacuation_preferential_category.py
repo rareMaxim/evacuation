@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestEvacuationDriver(FrappeTestCase):
+class TestEvacuationPreferentialCategory(FrappeTestCase):
 	pass

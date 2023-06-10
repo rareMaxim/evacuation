@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestEvacuationDocumentType(FrappeTestCase):
+class TestEvacA(FrappeTestCase):
 	pass

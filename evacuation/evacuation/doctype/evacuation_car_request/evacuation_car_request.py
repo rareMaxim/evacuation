@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class EvacuationDocument(Document):
+class EvacuationCarRequest(Document):
 	pass

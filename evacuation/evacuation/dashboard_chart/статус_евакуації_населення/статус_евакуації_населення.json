@@ -1,0 +1,39 @@
+{
+ "based_on": "",
+ "chart_name": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f",
+ "chart_type": "Group By",
+ "creation": "2023-06-10 19:56:37.063292",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Evacuation Customers",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "group_by_based_on": "workflow_state",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2023-06-10 19:56:37.063292",
+ "modified_by": "Administrator",
+ "module": "Evacuation",
+ "name": "\u0421\u0442\u0430\u0442\u0443\u0441 \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f",
+ "number_of_groups": 5,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "Evacuation Manager"
+  },
+  {
+   "role": "Evacuation System Manager"
+  }
+ ],
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Donut",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}
