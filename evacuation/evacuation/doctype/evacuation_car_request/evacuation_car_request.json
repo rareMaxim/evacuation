@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "naming_series:",
+ "autoname": "naming_series:naming_series",
  "creation": "2023-06-08 21:36:33.919969",
  "default_view": "List",
  "doctype": "DocType",
@@ -16,12 +16,12 @@
   "\u0430\u0434\u0440\u0435\u0441\u0430",
   "\u0437\u0430\u043f\u043e\u0432\u043d\u044e\u0454_\u0430\u0432\u0442\u043e\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440_section",
   "\u0437\u0430\u043f\u043e\u0432\u043d\u044e\u0454_\u0430\u0432\u0442\u043e\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440_column",
-  "car",
-  "column_break_akja",
-  "date",
-  "amended_from",
+  "cars",
+  "section_break_odvi",
   "naming_series",
-  "workflow_state"
+  "column_break_gyhi",
+  "workflow_state",
+  "amended_from"
  ],
  "fields": [
   {
@@ -51,17 +51,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "car",
-   "fieldtype": "Link",
-   "label": "\u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c",
-   "options": "Evacuation Auto"
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "\u0414\u0430\u0442\u0430"
-  },
-  {
    "fieldname": "\u0437\u0430\u043f\u043e\u0432\u043d\u044e\u0454_\u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u043a_\u0433\u0440\u043e\u043c\u0430\u0434\u0438_section",
    "fieldtype": "Section Break",
    "label": "\u0417\u0430\u043f\u043e\u0432\u043d\u044e\u0454 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u043a \u0433\u0440\u043e\u043c\u0430\u0434\u0438"
@@ -74,10 +63,6 @@
    "fieldname": "\u0437\u0430\u043f\u043e\u0432\u043d\u044e\u0454_\u0430\u0432\u0442\u043e\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440_section",
    "fieldtype": "Section Break",
    "label": "\u0417\u0430\u043f\u043e\u0432\u043d\u044e\u0454 \u0430\u0432\u0442\u043e\u0434\u0438\u0441\u043f\u0435\u0442\u0447\u0435\u0440"
-  },
-  {
-   "fieldname": "column_break_akja",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "amended_from",
@@ -102,18 +87,31 @@
    "label": "workflow_state"
   },
   {
-   "default": "0",
    "fieldname": "preferential_category",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "\u041f\u0456\u043b\u044c\u0433\u043e\u0432\u0430 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0456\u044f",
    "options": "Evacuation Preferential Category"
+  },
+  {
+   "fieldname": "cars",
+   "fieldtype": "Table",
+   "label": "\u041f\u0435\u0440\u0435\u043b\u0456\u043a \u0430\u0432\u0442\u043e",
+   "options": "Evacuation Car Request Table"
+  },
+  {
+   "fieldname": "section_break_odvi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gyhi",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-15 21:21:58.104629",
+ "modified": "2023-07-13 23:44:39.372768",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation Car Request",

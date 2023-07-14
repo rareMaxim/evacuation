@@ -2,29 +2,39 @@
  "actions": [],
  "allow_events_in_timeline": 1,
  "allow_rename": 1,
- "autoname": "format:{model} {reg_number}",
+ "autoname": "format:{reg_number}",
  "creation": "2023-06-03 15:01:30.194404",
  "default_view": "List",
+ "description": "\u0410\u0432\u0442\u043e\u043f\u0430\u0440\u043a \u0434\u043b\u044f \u0435\u0432\u0430\u043a\u0443\u0430\u0446\u0456\u0457 \u043c\u0435\u0448\u043a\u0430\u043d\u0446\u0456\u0432",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c_section",
-  "model",
-  "photo",
+  "brand",
   "column_break_bziv",
+  "model",
+  "section_break_kfpo",
+  "column_break_hbke",
   "reg_number",
-  "vim"
+  "column_break_dksr",
+  "vin",
+  "section_break_ywta",
+  "photo",
+  "column_break_gvml",
+  "data_yqyl"
  ],
  "fields": [
   {
    "allow_in_quick_entry": 1,
-   "description": "Mitsubishi Lancer X",
+   "description": "\u041f\u0440\u0438\u043a\u043b\u0430\u0434: Lanser X",
    "fieldname": "model",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "\u041c\u043e\u0434\u0435\u043b\u044c \u0430\u0432\u0442\u043e",
-   "options": "Evacuation Auto Model"
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u041c\u043e\u0434\u0435\u043b\u044c",
+   "reqd": 1
   },
   {
    "fieldname": "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c_section",
@@ -36,29 +46,74 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "MO1912HO, AP0000AA",
+   "allow_in_quick_entry": 1,
+   "description": "\u041f\u0440\u0438\u043a\u043b\u0430\u0434: MO1912HO, AP0000AA",
    "fieldname": "reg_number",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "\u041d\u043e\u043c\u0435\u0440 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0437\u0430\u0441\u043e\u0431\u0443"
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u041d\u043e\u043c\u0435\u0440 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0437\u0430\u0441\u043e\u0431\u0443",
+   "reqd": 1,
+   "unique": 1
   },
   {
-   "description": "ZFA22300005556777",
-   "fieldname": "vim",
-   "fieldtype": "Data",
-   "label": "VIM \u043d\u043e\u043c\u0435\u0440"
-  },
-  {
+   "allow_in_quick_entry": 1,
    "fieldname": "photo",
    "fieldtype": "Attach Image",
    "label": "\u0424\u043e\u0442\u043e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044f"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "description": "\u041f\u0440\u0438\u043a\u043b\u0430\u0434: ZFA22300005556777",
+   "fieldname": "vin",
+   "fieldtype": "Data",
+   "label": "VIN \u043d\u043e\u043c\u0435\u0440",
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "description": "\u041f\u0440\u0438\u043a\u043b\u0430\u0434: Mitshubishi",
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u0411\u0440\u0435\u043d\u0434",
+   "options": "Evacuation Auto Brand",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kfpo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hbke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dksr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "\u0411\u0443\u0434\u044c-\u044f\u043a\u0430 \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u0430 \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u044f",
+   "fieldname": "data_yqyl",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u041f\u0440\u0438\u043c\u0456\u0442\u043a\u0430"
+  },
+  {
+   "fieldname": "section_break_ywta",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gvml",
+   "fieldtype": "Column Break"
   }
  ],
- "icon": "photo",
  "image_field": "photo",
- "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 22:53:11.829486",
+ "make_attachments_public": 1,
+ "modified": "2023-07-13 23:37:33.313613",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation Auto",
@@ -88,18 +143,7 @@
    "read": 1,
    "report": 1,
    "role": "Evacuation Auto Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Evacuation Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -112,16 +156,18 @@
    "read": 1,
    "report": 1,
    "role": "Evacuation System Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   }
  ],
- "quick_entry": 1,
- "search_fields": "reg_number,photo",
+ "search_fields": "reg_number,brand",
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "reg_number",
+ "title_field": "model",
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1

@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class EvacA(Document):
+class EvacSelfDrive(Document):
 	pass

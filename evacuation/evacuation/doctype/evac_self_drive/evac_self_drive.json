@@ -1,27 +1,25 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-06-08 21:36:33.919969",
- "default_view": "List",
+ "creation": "2023-07-14 21:17:39.796216",
  "doctype": "DocType",
- "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "f"
+  "title"
  ],
  "fields": [
   {
-   "fieldname": "f",
+   "fieldname": "title",
    "fieldtype": "Data",
-   "label": "f"
+   "label": "Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 21:36:33.919969",
+ "modified": "2023-07-14 21:17:39.796216",
  "modified_by": "Administrator",
  "module": "Evacuation",
- "name": "EvacA",
+ "name": "Evac Self Drive",
  "owner": "Administrator",
  "permissions": [
   {

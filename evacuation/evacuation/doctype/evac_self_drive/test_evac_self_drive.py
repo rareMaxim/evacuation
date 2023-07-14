@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestEvacA(FrappeTestCase):
+class TestEvacSelfDrive(FrappeTestCase):
 	pass
