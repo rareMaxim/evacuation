@@ -1,0 +1,52 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"i2LnLX5Be9\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0413\u0440\u0443\u043f\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0433\u043e \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f</span>\",\"col\":12}},{\"id\":\"nCp7wgi-SU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u041d\u043e\u0432\u0456 \u0437\u0430\u043f\u0438\u0442\u0438 \u043d\u0430 \u0430\u0432\u0442\u043e\",\"col\":3}},{\"id\":\"yQVGGKaXXF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0417\u0430\u0440\u0435\u0454\u0441\u0442\u0440\u0443\u0432\u0430\u0442\u0438 \u0430\u0432\u0442\u043e\",\"col\":3}},{\"id\":\"6lcMirJUFP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0412\u0441\u0456 \u0430\u0432\u0442\u043e\",\"col\":3}}]",
+ "creation": "2023-07-29 16:44:05.182063",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "workflow",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0435 \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f",
+ "links": [],
+ "modified": "2023-07-30 01:02:42.905116",
+ "modified_by": "Administrator",
+ "module": "Evacuation",
+ "name": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0435 \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "\u0417\u0430\u0440\u0435\u0454\u0441\u0442\u0440\u0443\u0432\u0430\u0442\u0438 \u0430\u0432\u0442\u043e",
+   "link_to": "Evacuation Auto",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "\u041d\u043e\u0432\u0456 \u0437\u0430\u043f\u0438\u0442\u0438 \u043d\u0430 \u0430\u0432\u0442\u043e",
+   "link_to": "Evacuation Car Request",
+   "stats_filter": "{\"docstatus\":[\"=\",\"0\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "\u0412\u0441\u0456 \u0430\u0432\u0442\u043e",
+   "link_to": "Evacuation Auto",
+   "stats_filter": "{\"name\":[\"is\",\"set\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0435 \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f"
+}

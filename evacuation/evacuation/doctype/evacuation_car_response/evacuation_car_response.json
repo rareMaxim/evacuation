@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:\u0423\u0417-{#####}",
+ "creation": "2023-07-29 23:31:02.092393",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_utzh",
+  "car",
+  "section_break_klft",
+  "passenger"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "\u0414\u0430\u0442\u0430"
+  },
+  {
+   "fieldname": "column_break_utzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "car",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0438\u0439 \u0437\u0430\u0441\u0456\u0431",
+   "options": "Evacuation Auto"
+  },
+  {
+   "fieldname": "section_break_klft",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passenger",
+   "fieldtype": "Table",
+   "label": "\u041f\u0430\u0441\u0430\u0436\u0438\u0440\u0438",
+   "options": "Evac User Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-30 00:55:15.732825",
+ "modified_by": "Administrator",
+ "module": "Evacuation",
+ "name": "Evacuation Car Response",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

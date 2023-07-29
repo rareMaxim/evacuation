@@ -6,8 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "user",
-  "car"
+  "user"
  ],
  "fields": [
   {
@@ -16,19 +15,12 @@
    "in_list_view": 1,
    "label": "\u041a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447",
    "options": "Evacuation Customers"
-  },
-  {
-   "fieldname": "car",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "\u0422\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u0438\u0439 \u0437\u0430\u0441\u0456\u0431",
-   "options": "Evacuation Auto"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-07-29 12:24:43.091115",
+ "modified": "2023-07-30 00:42:59.256488",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evac User Table",
