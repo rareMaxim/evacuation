@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:brand",
  "creation": "2023-06-03 14:59:34.445912",
@@ -22,7 +23,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-08 22:55:07.666343",
+ "modified": "2023-07-26 23:52:12.959304",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation Auto Brand",

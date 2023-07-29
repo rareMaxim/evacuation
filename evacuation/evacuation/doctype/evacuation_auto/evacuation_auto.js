@@ -6,3 +6,11 @@
 
 // 	},
 // });
+frappe.form.link_formatters['Evacuation Auto'] = function (value, doc) {
+    console.log('link formatter');
+    if (doc && doc.model) {
+        return value ? brand + ': ' + doc.model : doc.model;
+    } else {
+        return value;
+    }
+}

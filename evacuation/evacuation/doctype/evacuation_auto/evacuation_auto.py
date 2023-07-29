@@ -6,4 +6,7 @@ from frappe.model.document import Document
 
 
 class EvacuationAuto(Document):
-	pass
+	#this method will run every time a document is saved
+    def before_save(self):
+        self.full_name = f'{self.brand} {self.model}'
+

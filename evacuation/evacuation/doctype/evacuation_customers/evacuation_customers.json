@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "naming_series:naming_series",
+ "autoname": "format:\u0415-{#####}",
  "creation": "2023-06-03 19:52:03.169026",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -10,6 +10,10 @@
   "customer",
   "column_break_qonw",
   "birthday",
+  "section_break_cpii",
+  "passport",
+  "column_break_syjw",
+  "phone",
   "section_break_afyk",
   "preferential_category",
   "column_break_yzkf",
@@ -93,15 +97,34 @@
   {
    "fieldname": "column_break_nzfa",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cpii",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passport",
+   "fieldtype": "Data",
+   "label": "\u041f\u0430\u0441\u043f\u043e\u0440\u0442"
+  },
+  {
+   "fieldname": "column_break_syjw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "+380-",
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-13 23:28:55.231163",
+ "modified": "2023-07-27 00:54:54.208578",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation Customers",
- "naming_rule": "By \"Naming Series\" field",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

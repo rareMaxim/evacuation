@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:title",
  "creation": "2023-06-10 15:20:01.515528",
@@ -20,7 +21,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-10 15:21:25.873736",
+ "modified": "2023-07-26 23:54:52.844709",
  "modified_by": "Administrator",
  "module": "Evacuation",
  "name": "Evacuation Local Community",
